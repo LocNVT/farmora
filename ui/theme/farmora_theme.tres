@@ -1,0 +1,258 @@
+[gd_resource type="Theme" load_steps=13 format=3]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_primary"]
+bg_color = Color(0.14901961386204, 0.50196081399918, 0.22745098173618, 1.0)
+border_width_bottom = 4
+border_color = Color(0.10588235408068, 0.36862745881081, 0.17254902422428, 1.0)
+corner_radius_top_left = 14
+corner_radius_top_right = 14
+corner_radius_bottom_right = 14
+corner_radius_bottom_left = 14
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_primary_pressed"]
+bg_color = Color(0.11372549086809, 0.40392157435417, 0.18823529779911, 1.0)
+border_width_bottom = 1
+border_color = Color(0.10588235408068, 0.36862745881081, 0.17254902422428, 1.0)
+corner_radius_top_left = 14
+corner_radius_top_right = 14
+corner_radius_bottom_right = 14
+corner_radius_bottom_left = 14
+content_margin_top = 3.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_primary_disabled"]
+bg_color = Color(0.90196079015732, 0.86274510622025, 0.76470589637756, 1.0)
+border_width_bottom = 4
+border_color = Color(0.82745099067688, 0.78039216995239, 0.65882354974747, 1.0)
+corner_radius_top_left = 14
+corner_radius_top_right = 14
+corner_radius_bottom_right = 14
+corner_radius_bottom_left = 14
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_secondary"]
+bg_color = Color(1.0, 0.77254903316498, 0.2392156869173, 1.0)
+border_width_bottom = 4
+border_color = Color(0.85098040103912, 0.60392159223557, 0.04313725605607, 1.0)
+corner_radius_top_left = 14
+corner_radius_top_right = 14
+corner_radius_bottom_right = 14
+corner_radius_bottom_left = 14
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_secondary_pressed"]
+bg_color = Color(0.94901961088181, 0.70980393886566, 0.16470588743687, 1.0)
+border_width_bottom = 1
+border_color = Color(0.85098040103912, 0.60392159223557, 0.04313725605607, 1.0)
+corner_radius_top_left = 14
+corner_radius_top_right = 14
+corner_radius_bottom_right = 14
+corner_radius_bottom_left = 14
+content_margin_top = 3.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ghost"]
+bg_color = Color(1.0, 1.0, 1.0, 1.0)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.92156863212585, 0.86666667461395, 0.73333334922791, 1.0)
+corner_radius_top_left = 14
+corner_radius_top_right = 14
+corner_radius_bottom_right = 14
+corner_radius_bottom_left = 14
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ghost_pressed"]
+bg_color = Color(0.96470588445663, 0.93333333730698, 0.84705883264542, 1.0)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.92156863212585, 0.86666667461395, 0.73333334922791, 1.0)
+corner_radius_top_left = 14
+corner_radius_top_right = 14
+corner_radius_bottom_right = 14
+corner_radius_bottom_left = 14
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_icon_button"]
+bg_color = Color(1.0, 0.98431372642517, 0.93725490570068, 1.0)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.92156863212585, 0.86666667461395, 0.73333334922791, 1.0)
+corner_radius_top_left = 24
+corner_radius_top_right = 24
+corner_radius_bottom_right = 24
+corner_radius_bottom_left = 24
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_icon_button_pressed"]
+bg_color = Color(0.96470588445663, 0.93333333730698, 0.84705883264542, 1.0)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.92156863212585, 0.86666667461395, 0.73333334922791, 1.0)
+corner_radius_top_left = 24
+corner_radius_top_right = 24
+corner_radius_bottom_right = 24
+corner_radius_bottom_left = 24
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_toast_success"]
+bg_color = Color(0.14901961386204, 0.50196081399918, 0.22745098173618, 1.0)
+corner_radius_top_left = 24
+corner_radius_top_right = 24
+corner_radius_bottom_right = 24
+corner_radius_bottom_left = 24
+content_margin_left = 16.0
+content_margin_right = 16.0
+shadow_color = Color(0.23137255012989, 0.16470588743687, 0.10196078568697, 0.22)
+shadow_size = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_toast_problem"]
+bg_color = Color(0.98431372642517, 0.8901960849762, 0.86274510622025, 1.0)
+corner_radius_top_left = 24
+corner_radius_top_right = 24
+corner_radius_bottom_right = 24
+corner_radius_bottom_left = 24
+content_margin_left = 16.0
+content_margin_right = 16.0
+shadow_color = Color(0.23137255012989, 0.16470588743687, 0.10196078568697, 0.22)
+shadow_size = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_toast_info"]
+bg_color = Color(0.14509804546833, 0.43529412150383, 0.72156864404678, 1.0)
+corner_radius_top_left = 24
+corner_radius_top_right = 24
+corner_radius_bottom_right = 24
+corner_radius_bottom_left = 24
+content_margin_left = 16.0
+content_margin_right = 16.0
+shadow_color = Color(0.23137255012989, 0.16470588743687, 0.10196078568697, 0.22)
+shadow_size = 8
+
+[resource]
+; NOTE (Phase 0): No custom FontFile is assigned anywhere in this theme.
+; docs/DESIGN.md Section 3 specifies Fredoka (600/700) and Nunito (600/700),
+; which are not yet present in assets/fonts/. Every type variation below
+; therefore uses the Godot default font as a documented, replaceable
+; fallback. See assets/fonts/README.md for the swap-in procedure. Sizes
+; and weights-by-usage still follow DESIGN.md Section 3; only the font
+; family itself is temporary.
+default_font_size = 15
+
+; A type variation is registered with its own "<VariationName>/base_type
+; = &"<BaseType>"" line (verified against Godot 4.7 by round-tripping a
+; Theme built with Theme.set_type_variation() through ResourceSaver --
+; the serialized format is flat "<VariationName>/category/item" keys
+; plus this one base_type pointer, NOT a "<BaseType>/<VariationName>/..."
+; nested path and NOT a top-level "type_variations" dictionary; both of
+; those were tried first and silently failed to register).
+;
+; All Color(...) literals below use the same full-precision float values
+; UiTokens' Color("#HEX") constants resolve to at runtime (.tres text
+; resources do not accept the Color("#HEX") string-constructor form --
+; verified directly -- only numeric Color(r,g,b,a)). Truncating these to
+; 7-8 significant digits by hand previously caused a real, if tiny,
+; mismatch between this file and ui_tokens.gd that one GUT test caught
+; (SecondaryButton's fill compared unequal despite printing identically).
+; Keep full precision here; do not round these values.
+
+Button/colors/font_color = Color(1.0, 1.0, 1.0, 1.0)
+Button/colors/font_pressed_color = Color(1.0, 1.0, 1.0, 1.0)
+Button/colors/font_disabled_color = Color(0.43137255311012, 0.35294118523598, 0.27450981736183, 1.0)
+Button/font_sizes/font_size = 16
+Button/styles/normal = SubResource("StyleBoxFlat_primary")
+Button/styles/pressed = SubResource("StyleBoxFlat_primary_pressed")
+Button/styles/hover = SubResource("StyleBoxFlat_primary")
+Button/styles/disabled = SubResource("StyleBoxFlat_primary_disabled")
+Button/styles/focus = SubResource("StyleBoxFlat_primary")
+
+PrimaryButton/base_type = &"Button"
+PrimaryButton/colors/font_color = Color(1.0, 1.0, 1.0, 1.0)
+PrimaryButton/colors/font_disabled_color = Color(0.43137255311012, 0.35294118523598, 0.27450981736183, 1.0)
+PrimaryButton/font_sizes/font_size = 16
+PrimaryButton/styles/normal = SubResource("StyleBoxFlat_primary")
+PrimaryButton/styles/pressed = SubResource("StyleBoxFlat_primary_pressed")
+PrimaryButton/styles/hover = SubResource("StyleBoxFlat_primary")
+PrimaryButton/styles/disabled = SubResource("StyleBoxFlat_primary_disabled")
+PrimaryButton/styles/focus = SubResource("StyleBoxFlat_primary")
+
+SecondaryButton/base_type = &"Button"
+SecondaryButton/colors/font_color = Color(0.29019609093666, 0.1843137294054, 0.07058823853731, 1.0)
+SecondaryButton/colors/font_disabled_color = Color(0.43137255311012, 0.35294118523598, 0.27450981736183, 1.0)
+SecondaryButton/font_sizes/font_size = 16
+SecondaryButton/styles/normal = SubResource("StyleBoxFlat_secondary")
+SecondaryButton/styles/pressed = SubResource("StyleBoxFlat_secondary_pressed")
+SecondaryButton/styles/hover = SubResource("StyleBoxFlat_secondary")
+SecondaryButton/styles/disabled = SubResource("StyleBoxFlat_primary_disabled")
+SecondaryButton/styles/focus = SubResource("StyleBoxFlat_secondary")
+
+GhostButton/base_type = &"Button"
+GhostButton/colors/font_color = Color(0.23137255012989, 0.16470588743687, 0.10196078568697, 1.0)
+GhostButton/colors/font_disabled_color = Color(0.43137255311012, 0.35294118523598, 0.27450981736183, 1.0)
+GhostButton/font_sizes/font_size = 16
+GhostButton/styles/normal = SubResource("StyleBoxFlat_ghost")
+GhostButton/styles/pressed = SubResource("StyleBoxFlat_ghost_pressed")
+GhostButton/styles/hover = SubResource("StyleBoxFlat_ghost")
+GhostButton/styles/disabled = SubResource("StyleBoxFlat_primary_disabled")
+GhostButton/styles/focus = SubResource("StyleBoxFlat_ghost")
+
+IconButton/base_type = &"Button"
+IconButton/colors/font_color = Color(0.23137255012989, 0.16470588743687, 0.10196078568697, 1.0)
+IconButton/font_sizes/font_size = 16
+IconButton/styles/normal = SubResource("StyleBoxFlat_icon_button")
+IconButton/styles/pressed = SubResource("StyleBoxFlat_icon_button_pressed")
+IconButton/styles/hover = SubResource("StyleBoxFlat_icon_button")
+IconButton/styles/disabled = SubResource("StyleBoxFlat_icon_button")
+IconButton/styles/focus = SubResource("StyleBoxFlat_icon_button")
+
+Label/colors/font_color = Color(0.23137255012989, 0.16470588743687, 0.10196078568697, 1.0)
+Label/font_sizes/font_size = 15
+
+TitleLabel/base_type = &"Label"
+TitleLabel/colors/font_color = Color(0.23137255012989, 0.16470588743687, 0.10196078568697, 1.0)
+TitleLabel/font_sizes/font_size = 28
+
+SectionLabel/base_type = &"Label"
+SectionLabel/colors/font_color = Color(0.23137255012989, 0.16470588743687, 0.10196078568697, 1.0)
+SectionLabel/font_sizes/font_size = 20
+
+BodyLabel/base_type = &"Label"
+BodyLabel/colors/font_color = Color(0.23137255012989, 0.16470588743687, 0.10196078568697, 1.0)
+BodyLabel/font_sizes/font_size = 15
+
+CaptionLabel/base_type = &"Label"
+CaptionLabel/colors/font_color = Color(0.43137255311012, 0.35294118523598, 0.27450981736183, 1.0)
+CaptionLabel/font_sizes/font_size = 12
+
+NumberLabel/base_type = &"Label"
+NumberLabel/colors/font_color = Color(0.23137255012989, 0.16470588743687, 0.10196078568697, 1.0)
+NumberLabel/font_sizes/font_size = 18
+
+; A type variation name is unique per Theme regardless of base type, so
+; the Label (font color) and PanelContainer (background) halves of each
+; toast "kind" need distinct variation names -- "ToastXLabel" vs
+; "ToastXPanel" -- even though both are conceptually "the Success toast".
+; Label (Godot 4) has no stylebox theme item of its own, only font/color/
+; constant items, which is why the background must live on a separate
+; PanelContainer variation (see ui/components/toast/toast.tscn and .gd).
+ToastSuccessLabel/base_type = &"Label"
+ToastSuccessLabel/colors/font_color = Color(1.0, 1.0, 1.0, 1.0)
+ToastSuccessLabel/font_sizes/font_size = 14
+
+ToastProblemLabel/base_type = &"Label"
+ToastProblemLabel/colors/font_color = Color(0.47843137383461, 0.16470588743687, 0.10588235408068, 1.0)
+ToastProblemLabel/font_sizes/font_size = 14
+
+ToastInfoLabel/base_type = &"Label"
+ToastInfoLabel/colors/font_color = Color(1.0, 1.0, 1.0, 1.0)
+ToastInfoLabel/font_sizes/font_size = 14
+
+ToastSuccessPanel/base_type = &"PanelContainer"
+ToastSuccessPanel/styles/panel = SubResource("StyleBoxFlat_toast_success")
+
+ToastProblemPanel/base_type = &"PanelContainer"
+ToastProblemPanel/styles/panel = SubResource("StyleBoxFlat_toast_problem")
+
+ToastInfoPanel/base_type = &"PanelContainer"
+ToastInfoPanel/styles/panel = SubResource("StyleBoxFlat_toast_info")
+
+Panel/styles/panel = SubResource("StyleBoxFlat_icon_button")

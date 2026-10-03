@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://ek2q7n5h9m3x1"]
+
+[ext_resource type="PackedScene" uid="uid://b7m3k9x2q5w8f" path="res://scenes/farm/animals/animal_view.tscn" id="1"]
+[ext_resource type="Script" path="res://scenes/farm/animals/cow_view.gd" id="2"]
+
+[node name="CowView" instance=ExtResource("1")]
+script = ExtResource("2")
+tap_zone_size = Vector2(96, 80)
+walk_speed = 20.0
+
+[node name="Body" parent="." index="2"]
+color = Color(1, 0.9843137, 0.9372549, 1)
+polygon = PackedVector2Array(-36, 0, 36, 0, 40, -28, 32, -48, -32, -48, -40, -28)
+
+[node name="Patch" type="Polygon2D" parent="." index="3"]
+color = Color(0.5411765, 0.41568628, 0.33333334, 1)
+polygon = PackedVector2Array(-20, -10, 0, -14, -4, -34, -24, -30)
+
+[node name="Horn" type="Polygon2D" parent="." index="4"]
+color = Color(0.9529412, 0.8901961, 0.70980394, 1)
+polygon = PackedVector2Array(-14, -46, -10, -54, -6, -46)
+
+[node name="Bell" type="Polygon2D" parent="." index="5"]
+color = Color(1, 0.772549, 0.23921569, 1)
+polygon = PackedVector2Array(-4, -8, 4, -8, 4, 0, -4, 0)

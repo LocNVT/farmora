@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://cq8n4h6m2k9xr"]
+
+[ext_resource type="PackedScene" uid="uid://b7m3k9x2q5w8f" path="res://scenes/farm/animals/animal_view.tscn" id="1"]
+[ext_resource type="Script" path="res://scenes/farm/animals/chicken_view.gd" id="2"]
+
+[node name="ChickenView" instance=ExtResource("1")]
+script = ExtResource("2")
+tap_zone_size = Vector2(64, 64)
+walk_speed = 40.0
+
+[node name="Body" parent="." index="2"]
+color = Color(1, 0.9843137, 0.9372549, 1)
+
+[node name="Wing" type="Polygon2D" parent="." index="3"]
+color = Color(0.95686275, 0.89411765, 0.7411765, 1)
+polygon = PackedVector2Array(10, -10, 22, -20, 16, -30, 6, -24)
+
+[node name="Comb" type="Polygon2D" parent="." index="4"]
+color = Color(0.8980392, 0.34509805, 0.30980393, 1)
+polygon = PackedVector2Array(-6, -44, -2, -50, 2, -44, 6, -50, 10, -44)
+
+[node name="Beak" type="Polygon2D" parent="." index="5"]
+color = Color(0.9490196, 0.627451, 0, 1)
+polygon = PackedVector2Array(14, -36, 22, -34, 14, -31)

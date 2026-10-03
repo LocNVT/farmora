@@ -1,0 +1,65 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Farmora"
+run/main_scene="res://scenes/main/main.tscn"
+config/quit_on_go_back=false
+config/features=PackedStringArray("4.3", "GL Compatibility")
+boot_splash/bg_color=Color(1, 0.964706, 0.87451, 1)
+config/icon="res://icon.svg"
+run/max_fps=60
+
+[audio]
+
+driver/enable_input=false
+
+[autoload]
+
+Game="*res://autoload/game.gd"
+SaveService="*res://autoload/save_service.gd"
+AudioService="*res://autoload/audio_service.gd"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/gut/plugin.cfg")
+
+[display]
+
+window/size/viewport_width=390
+window/size/viewport_height=844
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation="portrait"
+window/energy_saving/keep_screen_on=true
+
+[gui]
+
+theme/custom="res://ui/theme/farmora_theme.tres"
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
+
+[debug]
+
+gdscript/warnings/untyped_declaration=2
+gdscript/warnings/exclude_addons=true
+
+[internationalization]
+
+locale/translations=PackedStringArray()

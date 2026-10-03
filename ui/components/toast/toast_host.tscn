@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://ev5n93w7k1q8t"]
+
+[ext_resource type="Script" path="res://ui/components/toast/toast_host.gd" id="1"]
+
+[node name="ToastHost" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+script = ExtResource("1")

@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://b1y4f8qw3n7xe"]
+
+[ext_resource type="Script" path="res://scenes/farm/world_ui/floater.gd" id="1"]
+
+[node name="Floater" type="Node2D"]
+script = ExtResource("1")
+
+[node name="Disc" type="Polygon2D" parent="."]
+unique_name_in_owner = true
+color = Color(1, 0.9843137, 0.9372549, 1)
+polygon = PackedVector2Array(-10, 0, -7, -7, 0, -10, 7, -7, 10, 0, 7, 7, 0, 10, -7, 7)
+
+[node name="AmountLabel" type="Label" parent="."]
+unique_name_in_owner = true
+offset_left = -20.0
+offset_top = -9.0
+offset_right = 20.0
+offset_bottom = 9.0
+horizontal_alignment = 1
+vertical_alignment = 1

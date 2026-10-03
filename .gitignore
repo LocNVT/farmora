@@ -1,0 +1,15 @@
+# Godot 4 editor/import artifacts
+.godot/
+.import/
+export.cfg
+
+# Godot import cache for icon.svg and other imported assets
+*.import
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Local Claude Code session state
+.claude/

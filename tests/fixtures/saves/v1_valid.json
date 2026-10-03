@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "lastSeen": 1759392000000,
+  "tutorialStep": 7,
+  "wallet":   { "coins": 150, "feed": 5, "xp": 0, "level": 1 },
+  "bag":      { "egg": 0, "milk": 0, "pork": 0 },
+  "buildings": [
+    { "id": "chicken_coop", "level": 1 },
+    { "id": "cow_barn", "level": 1 },
+    { "id": "pig_pen", "level": 1 },
+    { "id": "feed_storage", "level": 1 },
+    { "id": "market", "level": 1 }
+  ],
+  "animals":  [
+    { "id": "a_1759392000123_4f2c", "species": "chicken", "name": "Pip",
+      "buildingId": "chicken_coop", "hunger": 0, "happiness": 100,
+      "health": 100, "progress": 0.0 }
+  ],
+  "settings": { "sound": true, "music": true, "vibration": true, "reminders": false, "language": "en" }
+}

@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://b8f4yq6a7r5k2"]
+
+[ext_resource type="Script" path="res://ui/components/farm_button/farm_button.gd" id="1"]
+
+[node name="FarmButton" type="Button"]
+custom_minimum_size = Vector2(88, 52)
+offset_right = 88.0
+offset_bottom = 52.0
+text = "Button"
+script = ExtResource("1")

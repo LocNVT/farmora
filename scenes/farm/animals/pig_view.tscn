@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://d9w5m3h8k2n4t"]
+
+[ext_resource type="PackedScene" uid="uid://b7m3k9x2q5w8f" path="res://scenes/farm/animals/animal_view.tscn" id="1"]
+[ext_resource type="Script" path="res://scenes/farm/animals/pig_view.gd" id="2"]
+
+[node name="PigView" instance=ExtResource("1")]
+script = ExtResource("2")
+tap_zone_size = Vector2(80, 72)
+walk_speed = 36.0
+
+[node name="Body" parent="." index="2"]
+color = Color(0.97647065, 0.7176471, 0.7529412, 1)
+polygon = PackedVector2Array(-28, 0, 28, 0, 32, -20, 24, -36, -24, -36, -32, -20)
+
+[node name="Snout" type="Polygon2D" parent="." index="3"]
+color = Color(1, 0.62352943, 0.6901961, 1)
+polygon = PackedVector2Array(-10, -34, 10, -34, 12, -24, -12, -24)
+
+[node name="Ear" type="Polygon2D" parent="." index="4"]
+color = Color(0.9490196, 0.60392159, 0.65882355, 1)
+polygon = PackedVector2Array(14, -40, 22, -48, 20, -36)

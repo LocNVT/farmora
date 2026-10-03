@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "start": { "coins": 150, "feed": 5, "xp": 0, "level": 1 },
+  "newAnimal": { "hunger": 0, "happiness": 100, "health": 100 },
+  "feeding": { "feedPerMeal": 1, "hungerPerMeal": 50, "hungerDecayPerMinute": 1.0, "debounceMs": 300, "blockWhenFull": true },
+  "happiness": { "gainOnFeed": 0, "gainOnCollect": 0, "decayPerMinute": 0 },
+  "status": { "hungryBelow": 30, "lowHappinessBelow": 30, "lowBarBelowPercent": 30 },
+  "production": { "pauseWhenReady": true },
+  "economy": { "purchaseLockMs": 300, "feedPack": { "feed": 10, "price": 25 }, "refuseOverflowingFeedPack": true },
+  "offline": { "capHours": 8, "rewardModalMinMinutes": 5 },
+  "tutorial": { "boostSpecies": "chicken", "firstEggSeconds": 20, "skipGrantCoins": 150 },
+  "progression": { "xpPerEvent": { "collect": 0, "buyAnimal": 0, "upgrade": 0 }, "xpToReachLevel": [0, 0, 0, 0, 0] },
+  "names": { "maxLength": 12 },
+  "products": {
+    "egg":  { "sellPrice": 5 },
+    "milk": { "sellPrice": 12 },
+    "pork": { "sellPrice": 30 }
+  },
+  "animals": {
+    "chicken": { "product": "egg",  "price": 100,  "unlockLevel": 1, "housing": "chicken_coop", "cycleMinutes": 3,  "defaultNames": ["Mimi", "Pip"] },
+    "pig":     { "product": "pork", "price": 600,  "unlockLevel": 3, "housing": "pig_pen",      "cycleMinutes": 10, "defaultNames": [] },
+    "cow":     { "product": "milk", "price": 1500, "unlockLevel": 5, "housing": "cow_barn",     "cycleMinutes": 6,  "defaultNames": [] }
+  },
+  "buildings": {
+    "chicken_coop": { "kind": "housing", "startsBuilt": true, "levels": [
+      { "cost": 0, "capacity": 4, "productionMultiplier": 1.0 },
+      { "cost": 500, "capacity": 8, "productionMultiplier": 1.25 },
+      { "cost": 1500, "capacity": 12, "productionMultiplier": 1.5 } ] },
+    "cow_barn": { "kind": "housing", "startsBuilt": true, "levels": [
+      { "cost": 0, "capacity": 2, "productionMultiplier": 1.0 },
+      { "cost": 1200, "capacity": 4, "productionMultiplier": 1.25 },
+      { "cost": 3500, "capacity": 6, "productionMultiplier": 1.5 } ] },
+    "pig_pen": { "kind": "housing", "startsBuilt": true, "levels": [
+      { "cost": 0, "capacity": 3, "productionMultiplier": 1.0 },
+      { "cost": 800, "capacity": 6, "productionMultiplier": 1.25 },
+      { "cost": 2400, "capacity": 9, "productionMultiplier": 1.5 } ] },
+    "feed_storage": { "kind": "feed_storage", "startsBuilt": true, "levels": [
+      { "cost": 0, "feedCapacity": 100 },
+      { "cost": 300, "feedCapacity": 250 },
+      { "cost": 900, "feedCapacity": 500 } ] },
+    "market": { "kind": "market", "startsBuilt": true, "levels": [
+      { "cost": 0, "sellBonusPercent": 0 },
+      { "cost": 400, "sellBonusPercent": 5 },
+      { "cost": 1200, "sellBonusPercent": 10 } ] }
+  }
+}
